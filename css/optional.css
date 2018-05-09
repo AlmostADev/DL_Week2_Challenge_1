@@ -1,0 +1,18 @@
+.navbar {
+    background: #000;
+}
+
+.sidebar {
+    background: grey;
+    width: 30%
+}
+
+.content {
+    width: 70%
+}
+
+.footer {
+    background: rgb(77, 76, 76);
+    text-align: center;
+    height: 100px;
+}
