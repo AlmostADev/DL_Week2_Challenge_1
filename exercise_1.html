@@ -7,19 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <style>
+        div {
+            box-sizing: border-box;
+        }
         .box {
             height: 100px;
             padding: 5px;
         }
         .box-content {
+            box-sizing: content-box;
             height: 100px;
-            margin: 5px;
             width: 25%;
             float: left;
+            border: 1px solid black;
+            margin: 5px;
+        }
+        .navbar {
+            position: fixed;
+            background-color: brown;
+            color: azure;
+            font-weight: bolder;
+        }
+        .clearfix {
+            clear: both;
         }
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+    <div class="clearfix"></div>
     <div class="box">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta esse, ipsam rem expedita saepe 
             alias architecto aliquid eligendi veritatis animi minus voluptate corporis voluptates enim optio, 
@@ -37,25 +59,25 @@
         </p>
 
         <div class="box-content">
-            <img src="images/cuadros.png" alt="">
+            <!-- <img src="images/cuadros.png" alt=""> -->
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non doloribus corrupti fuga quaerat soluta, ab illo officiis molestias
                 temporibus quas suscipit, nobis magni quia! Voluptas, dicta debitis. Inventore, maiores ut?
             </p>
         </div>
         <div class="box-content">
-            <img src="images/cuadros.png" alt="">
+            <!-- <img src="images/cuadros.png" alt=""> -->
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non doloribus corrupti fuga quaerat soluta, ab illo officiis molestias
                 temporibus quas suscipit, nobis magni quia! Voluptas, dicta debitis. Inventore, maiores ut?
             </p>
         </div>
         <div class="box-content">
-            <img src="images/cuadros.png" alt="">
+            <!-- <img src="images/cuadros.png" alt=""> -->
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non doloribus corrupti fuga quaerat soluta, ab illo officiis molestias
                 temporibus quas suscipit, nobis magni quia! Voluptas, dicta debitis. Inventore, maiores ut?
             </p>
         </div>
         <div class="box-content">
-            <img src="images/cuadros.png" alt="">
+            <!-- <img src="images/cuadros.png" alt=""> -->
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non doloribus corrupti 
                 fuga quaerat soluta, ab illo officiis molestias temporibus quas suscipit, nobis 
                 magni quia! Voluptas, dicta debitis. Inventore, maiores ut?
