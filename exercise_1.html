@@ -1,88 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <title>Box Model</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <style>
-        div {
-            box-sizing: border-box;
-        }
         .box {
             height: 100px;
-            padding: 5px;
-        }
-        .box-content {
-            box-sizing: content-box;
-            height: 100px;
-            width: 25%;
-            float: left;
-            border: 1px solid black;
             margin: 5px;
-        }
-        .navbar {
-            position: fixed;
-            background-color: brown;
-            color: azure;
-            font-weight: bolder;
-        }
-        .clearfix {
-            clear: both;
+            background-color: gray;
+            width: 25%;
+            box-sizing: border-box;
+            float: left;
         }
     </style>
 </head>
+
 <body>
-    <div class="navbar">
-        <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Contact us</li>
-        </ul>
-    </div>
-    <div class="clearfix"></div>
-    <div class="box">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta esse, ipsam rem expedita saepe 
-            alias architecto aliquid eligendi veritatis animi minus voluptate corporis voluptates enim optio, 
-            distinctio aperiam, iure cum?
-        </p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, eum sint praesentium quasi animi 
-            rem quidem quis, temporibus saepe perferendis adipisci vel quia quam, sit totam necessitatibus 
-            distinctio sapiente deserunt?
-        </p>
-
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sit amet hic ipsum voluptatem 
-            recusandae, ipsa, aperiam iure unde dolorem reprehenderit aliquid velit pariatur dolore doloribus 
-            expedita et vitae vel.
-        </p>
-
-        <div class="box-content">
-            <!-- <img src="images/cuadros.png" alt=""> -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non doloribus corrupti fuga quaerat soluta, ab illo officiis molestias
-                temporibus quas suscipit, nobis magni quia! Voluptas, dicta debitis. Inventore, maiores ut?
-            </p>
-        </div>
-        <div class="box-content">
-            <!-- <img src="images/cuadros.png" alt=""> -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non doloribus corrupti fuga quaerat soluta, ab illo officiis molestias
-                temporibus quas suscipit, nobis magni quia! Voluptas, dicta debitis. Inventore, maiores ut?
-            </p>
-        </div>
-        <div class="box-content">
-            <!-- <img src="images/cuadros.png" alt=""> -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non doloribus corrupti fuga quaerat soluta, ab illo officiis molestias
-                temporibus quas suscipit, nobis magni quia! Voluptas, dicta debitis. Inventore, maiores ut?
-            </p>
-        </div>
-        <div class="box-content">
-            <!-- <img src="images/cuadros.png" alt=""> -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non doloribus corrupti 
-                fuga quaerat soluta, ab illo officiis molestias temporibus quas suscipit, nobis 
-                magni quia! Voluptas, dicta debitis. Inventore, maiores ut?
-            </p>
-        </div>
-    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
 </body>
+
 </html>
