@@ -5,10 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Exercise 5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <style>
+        .div-parent {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .image1 {
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .image2 {
+            position: absolute;
+            top: 36px;
+            left: 22px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="div-parent">
+        <img class="image1" src="./images/oferta_lente.jpg" alt="">
+        <img class="image2" src="./images/ribbon.png" alt="">
+    </div>
 </body>
 </html>
