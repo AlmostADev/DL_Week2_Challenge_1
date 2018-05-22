@@ -6,21 +6,71 @@
     <title>Box Model</title>
     <style>
         .box {
-            height: 100px;
+            height: 350px;
             margin: 5px;
-            background-color: gray;
+            border: 1px solid black;
             width: 25%;
             box-sizing: border-box;
             float: left;
+            padding: 10px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        navbar {
+            position: sticky;
+            color: antiquewhite;
+            font-weight: 400;
+        }
+
+        ul {
+            background-color: red;
+            list-style-type: none;
+        }
+
+        li{
+            float: left;
+            margin-left: 15px;
         }
     </style>
 </head>
 
 <body>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
+
+    <div class="navbar">
+        <ul>
+            <li>Inicio</li>
+            <li>Nosotros</li>
+            <li>Servicios</li>
+            <li>Contacto</li>
+        </ul>
+    </div>
+    <div class="box">
+        <img src="./images/desafio.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maiores eos quis, fuga ab eveniet esse. 
+            Ea, ab corporis, velit ipsa nam natus eaque praesentium magni consequuntur molestiae aliquam eligendi.
+        </p>
+    </div>
+    <div class="box">
+        <img src="./images/desafio.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maiores eos quis, fuga ab eveniet esse. 
+            Ea, ab corporis, velit ipsa nam natus eaque praesentium magni consequuntur molestiae aliquam eligendi.
+        </p>
+    </div>
+    <div class="box">
+        <img src="./images/desafio.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maiores eos quis, fuga ab eveniet esse. 
+            Ea, ab corporis, velit ipsa nam natus eaque praesentium magni consequuntur molestiae aliquam eligendi.
+        </p>
+    </div>
+    <div class="box">
+        <img src="./images/desafio.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maiores eos quis, fuga ab eveniet esse. 
+            Ea, ab corporis, velit ipsa nam natus eaque praesentium magni consequuntur molestiae aliquam eligendi.
+        </p>
+    </div>
 </body>
 
 </html>
